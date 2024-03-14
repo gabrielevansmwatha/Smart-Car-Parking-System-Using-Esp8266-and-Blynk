@@ -1,6 +1,9 @@
+//Twitter: gabrielevans418
+//By Evans Mwatha
+
 #define BLYNK_TEMPLATE_ID "TMPL2HBXlcPCU"
 #define BLYNK_TEMPLATE_NAME "Car Parking"
-#define BLYNK_AUTH_TOKEN "lI94-_83AHxPv8rozJhVhyfln-Bhi5Jp"
+#define BLYNK_AUTH_TOKEN ""//Put your Authentication Token
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -9,8 +12,8 @@
 char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
-char ssid[] = "Eagle!";
-char pass[] = "123456789";
+char ssid[] = "";
+char pass[] = "";
 
 // LED widget virtual pins
 #define LED_SLOT1 V1
